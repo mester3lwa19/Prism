@@ -1,0 +1,208 @@
+body { margin: 0; padding:0; background-color: blueviolet; }
+.container {  margin: auto; width:1140px; }
+/* Start header */
+.header {
+    width:100%;
+    height:350px;
+    background-color: blueviolet;
+} 
+.header .heading {
+    width:50%;
+    float:left;
+    border-right: 2px solid #ddd ;
+    margin-top:1%;
+}
+.header .heading h2 {
+    width:48%;
+    
+    font-size:40px;
+    color:#fff;
+    line-height:1.2;
+    margin-top:1%;
+}
+.header .heading span:hover { color:rgb(252, 227, 5); cursor:pointer }
+.header .Lorem {
+    width:40%;
+    float:right;
+    margin-left: 1%;
+}
+.header .Lorem p {
+    width:50%;
+    font-size:19px;
+    color:#fff;
+    line-height:1.2;
+    margin-top:4%;
+    font-family: monospace;
+}
+.header .Lorem button {
+    border:0;
+    background:#00BC8A;
+    color:#fff;
+    font-size:35px;
+    border-radius: 18px;
+    cursor:pointer;
+    padding:10px;
+    width:200px;
+    outline:0;
+}
+/* End header */ 
+/* start Magna */
+.magna  {
+    width:100%;
+    height:350px;
+    background-color: #fff;
+    border-bottom: 3px solid #ddd;
+    padding-top:50px;
+}
+.magna .learn {
+    width:45%;
+    float:left;
+    border-right: 2px solid #ddd;
+    padding-right:5%;
+}
+.magna .learn h2 {
+    font-size: 40px;
+    font-family: tahoma;
+}
+.magna .learn p {
+    line-height: 1.3;
+    color:#888;
+}
+.magna .learn button { 
+    border:0;
+    background:#00BC8A;
+    color:#fff;
+    font-size:35px;
+    border-radius: 18px;
+    cursor:pointer;
+    padding:10px;
+    width:200px;
+    outline:0;
+}
+.magna .learn button:hover {
+    background:#080;
+}
+.magna .pros {
+    float:left;
+    width:40%;
+    margin-left:8%;
+    visibility: hidden;
+}
+.magna .pros p {
+    font-size:20px ;
+    line-height: 1.5;
+    font-family: tahoma;
+    font-weight:bold;
+    color:#666
+}
+/* end Magna */
+/* start Images part */
+.images { 
+    background-color:rgb(230, 230, 230);
+    width:100%;
+    height:auto;
+    padding-top:2%;
+    padding-bottom:2%;
+    overflow:hidden;
+    border-bottom: 3px solid rgb(255, 254, 254);
+}
+.images .part img {
+    float:left;
+    width:40%;
+}
+.images .part .head {
+    float:left;
+    width:40%;
+    padding-top:7%;
+    padding-left:6%;
+}
+.images .part .head h2 {
+    color:#777;
+    font-family:tahoma;
+    text-decoration: underline;
+
+}
+.images .part .head p {
+    color:#888;
+    font-family:tahoma;
+    font-weight:bold;
+    line-height:1.5;
+}
+.images .part .head button {
+    border:0;
+    background:#00BC8A;
+    color:#fff;
+    font-size:20px;
+    border-radius: 18px;
+    cursor:pointer;
+    padding:7px;
+    width:100px;
+    outline:0;
+}
+.images .part .head button:hover { background-color:#080; }
+/* End Images part */
+/* start ori */
+.ori {  
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    background-color: #fff;
+}
+.ori .inputs {
+    float:left;
+    width: 50%;
+    border-right: 2px solid #ddd;    
+    font-family: tahoma;
+}
+.ori .inputs p {
+    line-height:1.5;
+    font-family: tahoma;
+    font-weight: bold;
+    color:#888;
+}
+.ori .inputs input[type=text] {
+    width:200px;
+    height:30px;
+    padding-left: 3%;
+    margin-bottom:5%;
+}
+.ori .inputs input[type=email] {
+    width:200px;
+    height:30px;
+    padding-left: 3%;
+    margin-left: 8%;
+}
+.ori .inputs textarea {
+    width:87%
+}
+.ori .inputs input[type=submit] {
+    border:0;
+    background:#00BC8A;
+    color:#fff;
+    font-size:20px;
+    border-radius: 18px;
+    cursor:pointer;
+    padding:7px;
+    width:200px;
+    outline:0;
+    margin-top:3%;
+    margin-bottom:3%;
+}
+.ori .Links .minilinks img {
+    display:block;
+    padding-left:10%;
+    padding-top:35px;
+    padding-bottom:10px;
+}
+.ori .Links .minilinks a {
+    text-decoration: none;
+    padding-left:10%;
+    padding-top:45px;
+    color: #080;
+}
+.ori .Links .minilinks a:hover {
+    color:#f50;
+}
+.footer {background:#fff}
+/* end ori */
+
